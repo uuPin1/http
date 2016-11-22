@@ -5,16 +5,16 @@
 # Site
 title: HTTP
 subtitle:
-description: 女孩子 咖啡 猫
+description: 女孩子 编程 猫
 author: Girls
 language:
 timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
+url: http://http.uuPin1.com
 root: /
-permalink: :year/:month/:day/:title/
+permalink: :year/:month/:title/
 permalink_defaults:
 
 # Directory
