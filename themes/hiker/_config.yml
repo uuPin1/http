@@ -19,10 +19,10 @@ keywords: ""
 avatar:
   enable: true
   border: true
-  width: 100
-  height: 100
+  width: 123
+  height: 150
   top: 0
-  url: css/images/mylogo.jpg
+  url: css/images/mylogo.png
 
 
 # Homepage
