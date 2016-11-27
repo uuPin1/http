@@ -13,7 +13,7 @@ date: 2016-11-22
 ### 关于编程
 
 - `Web developer` 小菜鸟
-- `Rails on Ruby` 所以对全栈很感兴趣
+- `Ruby on Rails` 所以对全栈很感兴趣
 - `Atom`
 
 ### 其他的
