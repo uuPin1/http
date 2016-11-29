@@ -13,32 +13,32 @@
   
   <meta name="description" content="这篇笔记将帮助你完成powershell的基本配置，尤其是针对使用python3科学计算的相关组件。
 
-配置的第一步1. 以管理员身份进入 powershell
+配置好看好用的Shell配置的第一步1. 以管理员身份进入 powershell
 2. 设置你的用户权限
 1PS&amp;gt; Set-ExecutionPolicy RemoteSigned -Force
 More about ExecutionPolicy
-配置好看好用的Shell I - $profile BuildM">
+I - $profile BuildMo">
 <meta property="og:type" content="article">
 <meta property="og:title" content="PowerShell for Scientific Computation">
 <meta property="og:url" content="http://http.uuPin1.com/2016/11/SciComput/index.html">
 <meta property="og:site_name" content="HTTP">
 <meta property="og:description" content="这篇笔记将帮助你完成powershell的基本配置，尤其是针对使用python3科学计算的相关组件。
 
-配置的第一步1. 以管理员身份进入 powershell
+配置好看好用的Shell配置的第一步1. 以管理员身份进入 powershell
 2. 设置你的用户权限
 1PS&amp;gt; Set-ExecutionPolicy RemoteSigned -Force
 More about ExecutionPolicy
-配置好看好用的Shell I - $profile BuildM">
-<meta property="og:updated_time" content="2016-11-29T15:26:13.000Z">
+I - $profile BuildMo">
+<meta property="og:updated_time" content="2016-11-29T15:42:08.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="PowerShell for Scientific Computation">
 <meta name="twitter:description" content="这篇笔记将帮助你完成powershell的基本配置，尤其是针对使用python3科学计算的相关组件。
 
-配置的第一步1. 以管理员身份进入 powershell
+配置好看好用的Shell配置的第一步1. 以管理员身份进入 powershell
 2. 设置你的用户权限
 1PS&amp;gt; Set-ExecutionPolicy RemoteSigned -Force
 More about ExecutionPolicy
-配置好看好用的Shell I - $profile BuildM">
+I - $profile BuildMo">
   
     <link rel="alternate" href="/atom.xml" title="HTTP" type="application/atom+xml">
   
@@ -187,15 +187,15 @@ More about ExecutionPolicy
       
         <p>这篇笔记将帮助你完成powershell的基本配置，尤其是针对使用python3科学计算的相关组件。</p>
 <hr>
-<h2 id="配置的第一步"><a href="#配置的第一步" class="headerlink" title="配置的第一步"></a>配置的第一步</h2><p><strong>1. 以管理员身份进入 powershell</strong></p>
+<h2 id="配置好看好用的Shell"><a href="#配置好看好用的Shell" class="headerlink" title="配置好看好用的Shell"></a>配置好看好用的Shell</h2><h3 id="配置的第一步"><a href="#配置的第一步" class="headerlink" title="配置的第一步"></a>配置的第一步</h3><p><strong>1. 以管理员身份进入 powershell</strong></p>
 <p><strong>2. 设置你的用户权限</strong></p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">PS&gt; Set-ExecutionPolicy RemoteSigned -Force</div></pre></td></tr></table></figure>
 <p>More about <a href="https://technet.microsoft.com/zh-CN/library/hh847748.aspx" target="_blank" rel="external">ExecutionPolicy</a></p>
-<h2 id="配置好看好用的Shell-I-profile-Build"><a href="#配置好看好用的Shell-I-profile-Build" class="headerlink" title="配置好看好用的Shell I - $profile Build"></a>配置好看好用的Shell I - $profile Build</h2><p>More about <a href="https://msdn.microsoft.com/en-us/library/bb613488" target="_blank" rel="external">$profile 设置</a></p>
-<h2 id="配置好看好用的Shell-II-ConEmu"><a href="#配置好看好用的Shell-II-ConEmu" class="headerlink" title="配置好看好用的Shell II - ConEmu"></a>配置好看好用的Shell II - ConEmu</h2><p><strong>1. 安装 chocolatey - 文件管理</strong></p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">PS&gt; iwr https://chocolatey.org/install.ps1 -UseBasicParsing | iex`</div></pre></td></tr></table></figure>
+<h3 id="I-profile-Build"><a href="#I-profile-Build" class="headerlink" title="I - $profile Build"></a>I - $profile Build</h3><p>More about <a href="https://msdn.microsoft.com/en-us/library/bb613488" target="_blank" rel="external">$profile 设置</a></p>
+<h3 id="II-ConEmu"><a href="#II-ConEmu" class="headerlink" title="II - ConEmu"></a>II - ConEmu</h3><p><strong>1. 安装 chocolatey - 文件管理</strong></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">PS&gt; iwr https://chocolatey.org/install.ps1 -UseBasicParsing | iex</div></pre></td></tr></table></figure>
 <p><strong>p.s.</strong> iwr这个命令从属于 PacketManagement ，如果提示没有这个命令，建议逐次安装升级你的 powerShell ，每次可以使用</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$env:PSModulePath -split &apos;;&apos; | % &#123; dir $_ &#125; | % &#123; $_.Name &#125;</div></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$env: PSModulePath -split &apos;;&apos; | % &#123; dir $_ &#125; | % &#123; $_.Name &#125;</div></pre></td></tr></table></figure>
 <p>查看你的 PowerShell 是否含有这个组件<br>More about <a href="https://github.com/OneGet/oneget/issues/148" target="_blank" rel="external">PackeageManagement disappear</a></p>
 <p><strong>2. 安装chocolatey组件</strong></p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">choco install conemu -y</div><div class="line">choco install python3 -y</div><div class="line">choco install git.install -y</div></pre></td></tr></table></figure>
@@ -268,7 +268,7 @@ More about ExecutionPolicy
   
   
     <a href="/2016/11/hello-world/" id="article-nav-older" class="article-nav-link-wrap">
-      <strong class="article-nav-caption">Älter</strong>
+      <strong class="article-nav-caption">Viejo</strong>
       <div class="article-nav-title">添加你的信息</div>
     </a>
   
@@ -283,7 +283,7 @@ More about ExecutionPolicy
     <div id="toc" class="toc-article">
     <strong class="toc-title">Contents</strong>
     
-      <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#配置的第一步"><span class="toc-number">1.</span> <span class="toc-text">配置的第一步</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#配置好看好用的Shell-I-profile-Build"><span class="toc-number">2.</span> <span class="toc-text">配置好看好用的Shell I - $profile Build</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#配置好看好用的Shell-II-ConEmu"><span class="toc-number">3.</span> <span class="toc-text">配置好看好用的Shell II - ConEmu</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#python3-pip-numpy-scipy-pandas-matplotlib-…"><span class="toc-number">4.</span> <span class="toc-text">python3 pip - numpy, scipy, pandas, matplotlib, …</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#SSH"><span class="toc-number">5.</span> <span class="toc-text">SSH</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Subsystem-for-Ubuntu"><span class="toc-number">6.</span> <span class="toc-text">Subsystem for Ubuntu</span></a></li></ol>
+      <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#配置好看好用的Shell"><span class="toc-number">1.</span> <span class="toc-text">配置好看好用的Shell</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#配置的第一步"><span class="toc-number">1.1.</span> <span class="toc-text">配置的第一步</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#I-profile-Build"><span class="toc-number">1.2.</span> <span class="toc-text">I - $profile Build</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#II-ConEmu"><span class="toc-number">1.3.</span> <span class="toc-text">II - ConEmu</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#python3-pip-numpy-scipy-pandas-matplotlib-…"><span class="toc-number">2.</span> <span class="toc-text">python3 pip - numpy, scipy, pandas, matplotlib, …</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#SSH"><span class="toc-number">3.</span> <span class="toc-text">SSH</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Subsystem-for-Ubuntu"><span class="toc-number">4.</span> <span class="toc-text">Subsystem for Ubuntu</span></a></li></ol>
     
     </div>
   </aside>
@@ -296,7 +296,7 @@ More about ExecutionPolicy
 
   <div class="container">
       <div class="row">
-	      <p> Powered by <a href="http://hexo.io/" target="_blank">Hexo</a> and <a href="https://github.com/iTimeTraveler/hexo-theme-hiker" target="_blank">Hexo-theme-hiker</a> </p>
+	      <p> Construido por <a href="http://hexo.io/" target="_blank">Hexo</a> and <a href="https://github.com/iTimeTraveler/hexo-theme-hiker" target="_blank">Hexo-theme-hiker</a> </p>
 	      <p id="copyRightEn">Copyright &copy; 2016 - 2016 HTTP All Rights Reserved.</p>
 	</div>
   </div>
