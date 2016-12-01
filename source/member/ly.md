@@ -12,7 +12,7 @@ Web developer
 熟悉
 
 - Vue.js
-- React Nativ
+- React Native
 - Node.js
 - PHP
 
