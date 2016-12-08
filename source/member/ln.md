@@ -1,4 +1,4 @@
-`ln`
+
 最近对web programming充满热情
  ｀js｀, ｀jQuery｀, ｀nodejs｀ 初学者
 
