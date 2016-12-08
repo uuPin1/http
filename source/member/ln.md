@@ -1,6 +1,9 @@
-
-最近对web programming充满热情
- ｀js｀, ｀jQuery｀, ｀nodejs｀ 初学者
+---
+title: ln
+date: 2016-12-08
+---
+最近对web programming充满热情。
+`js`, `jQuery`, `nodejs` 初学者
 
 **TECH**
 - JAVA, C, `PYTHON`
