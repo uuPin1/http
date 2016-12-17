@@ -1,3 +1,8 @@
+---
+title: Catherine
+date: 2016-11-30
+---
+
 就快要到美帝的University of Rochester成为一名村姑，离得最近的大城市居然是多伦多
 
 学校里本科生转专业挺容易，Computer Science和Data Science看起来都挺好的样子
