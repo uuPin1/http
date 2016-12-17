@@ -3,7 +3,7 @@ title: Lynnic
 date: 2016-12-01
 ---
 
-Web developer 
+Web developer
 
 ***
 
@@ -23,4 +23,3 @@ Web developer
 ### 日常
 - 羽毛球能虐菜
 - 加班会死星人
-

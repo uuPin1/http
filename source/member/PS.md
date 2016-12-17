@@ -1,3 +1,8 @@
+---
+title: PS
+date: 2016-11-27
+---
+
 可以叫我`PS`，也可叫我`皮皮`
 - 想做个Data Scientist，就是那种有sense把数据转化成value的人
 - 最讨厌装逼的人，我会怼你

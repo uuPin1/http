@@ -1,3 +1,7 @@
+---
+title: Yichen
+date: 2016-11-27
+---
 ### Computer skills
 * Python
 * Matlab
@@ -10,6 +14,6 @@
 
 ### 研究方向
 * 如何在大学里生存到毕业。
-* 副业：scientific data analysis 
+* 副业：scientific data analysis
 
 最近想练习法语和西班牙语，请会的人来勾搭。
