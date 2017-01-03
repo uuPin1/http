@@ -31,9 +31,7 @@ tags:
 ### [You-Dont-Need-JavaScript](https://github.com/you-dont-need/You-Dont-Need-Javascript)
 **锅**： 开阔思路，很多场景不需要用JS来控制
 ### [You-Dont-Need-jQuery](https://github.com/oneuijs/You-Dont-Need-jQuery)
-**锅**： 抛弃冗余，拥抱高性能
-最后私心推荐一个 [jQuery源代码查看工具](http://www.css88.com/tool/jQuerySourceViewer/)
-**锅**： 可以按照版本，函数，方法来查看源码
-### [yoga](https://github.com/facebook/yoga) - Chihiro
+**锅**： 抛弃冗余，拥抱高性能。最后私心推荐一个 [jQuery源代码查看工具](http://www.css88.com/tool/jQuerySourceViewer/) 可以按照版本，函数，方法来查看源码
+### [yoga](https://github.com/facebook/yoga)
 **Chihiro**： react native的布局使用的是Yoga(之前叫CssLayout)，核心代码就6个文件。现在做跨平台布局（iOS、Android、H5、PC），很多人都会优先研究这个。我们目前也是基于这个布局搭建自己的跨平台布局：）
 ### [PanoramaImageView](https://github.com/gjiazhe/PanoramaImageView) by Chihiro
